@@ -1,0 +1,6 @@
+framework module Pods_JFCommonLib_Example {
+  umbrella header "Pods-JFCommonLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

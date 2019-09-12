@@ -1,10 +1,17 @@
-use_frameworks!
-
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'JFCommonLib_Example' do
   pod 'JFCommonLib', :path => '../'
 
+  pod 'QMUIKit'
+  pod 'IQKeyboardManager'
+  pod 'AFNetworking'
+  pod 'YYModel'
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'FLEX', '~> 2.0', :configurations => ['Debug'], :inhibit_warnings => true
+  
   target 'JFCommonLib_Tests' do
     inherit! :search_paths
 
@@ -13,4 +20,5 @@ target 'JFCommonLib_Example' do
     pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
   end
+  
 end
