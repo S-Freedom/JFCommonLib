@@ -14,9 +14,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(BOOL)isValidPhoneNum;
 
-//判断手机号是否合法
--(BOOL)isPhoneNum;
-
 //字符串转成十六进制的字符串
 - (NSString *)hexString;
 
