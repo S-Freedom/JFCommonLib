@@ -1,7 +1,7 @@
 {
   "name": "JFCommonLib",
   "version": "0.1.0",
-  "summary": "A short description of JFCommonLib.",
+  "summary": "JFCommonLib private tools.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/445412679@qq.com/JFCommonLib",
   "license": {
@@ -18,5 +18,28 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JFCommonLib/Classes/**/*"
+  "source_files": "JFCommonLib/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ],
+    "QMUIKit": [
+
+    ],
+    "IQKeyboardManager": [
+
+    ],
+    "YYModel": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "LookinServer": [
+
+    ],
+    "FLEX": [
+
+    ]
+  }
 }
